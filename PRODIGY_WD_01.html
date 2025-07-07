@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BMW Navigation Menu</title>
-  <link rel="stylesheet" href="PRODIGY_WD_01.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercedes-Benz</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav id="navbar">
-    <div class="logo">BMW</div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Models</a></li>
-      <li><a href="#">Innovation</a></li>
-      <li><a href="#">Test Drive</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-
-  <header class="hero">
-    <h1>Welcome to BMW Experience</h1>
-    <p>Sheer Driving Pleasure</p>
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="logo">Mercedes-Benz</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#models" class="nav-link">Models</a>
+      <a href="#performance" class="nav-link">Performance</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </header>
 
-  <div class="content">
-    <section>
-      <h2>About BMW</h2>
-      <p>BMW is a German luxury vehicle manufacturer known for its performance, technology, and innovation.</p>
-    </section>
-    <section>
-      <h2>Popular Models</h2>
-      <ul>
-        <li>BMW 3 Series</li>
-        <li>BMW 5 Series</li>
-        <li>BMW X5</li>
-        <li>BMW M4 Competition</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Why Choose BMW?</h2>
-      <p>State-of-the-art engineering, cutting-edge features, and an unmatched driving experience.</p>
-    </section>
-    <div style="height: 1500px;"></div>
-  </div>
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h1>Welcome to Mercedes-Benz</h1>
+    <p>
+      For nearly a century, Mercedes-Benz has been synonymous with elegance, innovation, and driving excellence. 
+      From the first patented automobile to today's advanced electric vehicles, our legacy continues to define luxury on four wheels.
+    </p>
+    <p>
+      Step into a world where design meets performance, and every journey becomes extraordinary.
+    </p>
+  </section>
 
-  <script src="PRODIGY_WD_01.js"></script>
-</body>
-</html>
+  <!-- Models Section -->
+  <section id="models" class="section models">
+    <h2>Our Models</h2>
+    <p>
+      Whether you're drawn to the refined agility of the C-Class, the commanding presence of the GLE SUV, or the sheer power of the AMG GT, 
+      every Mercedes-Benz model is crafted with precision, passion, and purpose.
+    </p>
+    <p>
+      Discover our full range — sedans, coupes, convertibles, and SUVs — all engineered to deliver the signature Mercedes-Benz experience.
+    </p>
+  </section>
+
+  <!-- Performance Section -->
+  <section id="performance" class="section performance">
+    <h2>Unmatched Performance</h2>
+    <p>
+      At Mercedes-Benz, performance is more than just speed — i
